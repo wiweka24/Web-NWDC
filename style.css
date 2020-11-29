@@ -1,0 +1,223 @@
+/* NavBar */
+.navbar {
+    position: relative;
+    z-index: 1;
+}
+
+.navbar-brand {
+    font-family: Viga;
+    font-size: 32px;
+}
+
+/* Jumbotron */
+.jumbotron {
+    background-image: url(img/jumbotron-bg.jpg);
+    background-size: cover;
+    height: 640px;
+    position: relative;
+}
+
+.jumbotron img {
+    margin-top: 80px;
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.jumbotron .container {
+    position: relative;
+    z-index: 1;
+}
+
+.jumbotron::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+    position: absolute;
+    bottom: 0;
+}
+
+.jumbotron .display-4 {
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
+    font-size: 40px;
+}
+
+.jumbotron .display-4 span {
+    font-weight: 500;
+}
+
+.jumbotron .lead {
+    font-size: 12px;
+    color: white;
+    text-align: center;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
+}
+
+/* wrap */
+.wrap {
+    border-radius: 25px;
+}
+
+/* info panel */
+
+.info-panel {
+    background-color: white;
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 12px;
+    margin-top: -100px;
+    padding: 30px;
+    text-align: center;
+}
+
+.info-panel .badge {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    border-radius: 30px;
+}
+
+.info-panel img {
+    width: 80px;
+    height: 80px;
+    margin-top: 30px;
+    margin-right: 20px;
+    margin-bottom: 15px;
+}
+
+.info-panel h4 {
+    font-size: 28px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 50px;
+    text-align: left;
+}
+
+/* alasan */
+.alasan {
+    margin-top: 120px;
+    text-align: center;
+}
+
+.alasan h3 {
+    font-size: 28px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.alasan p {
+    font-size: 14px;
+}
+
+/* front end */
+.frontend {
+    text-align: center;
+    margin-top: 120px;
+}
+
+.frontend h3 {
+    font-size: 28px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+
+.frontend p {
+    font-size: 14px;
+}
+
+/* back end */
+.backend {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.backend h3 {
+    font-size: 28px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+
+.backend p {
+    font-size: 14px;
+}
+
+/* quoteku */
+.quote {
+    margin-top: 100px;
+    text-align: center;
+    font-weight: 200;
+    font-style: italic;
+    font-size: 20px;
+}
+
+.footer {
+    margin-top: 100px;
+    color: #ACACAC;
+    font-size: 14px;
+    background-color: black;
+}
+/* DEKSTOP VERSION */
+@media (min-width: 992px) {
+    .navbar-brand {
+        color: white !important;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
+    }
+
+    .jumbotron {
+        margin-top: -75px;
+        height: 700px;
+    }
+
+    .jumbotron .display-4 {
+        font-size: 62px;
+    }
+
+    .jumbotron .lead {
+        font-size: 20px;
+    }
+
+    .frontend {
+        text-align: left;
+    }
+
+    .frontend h3 {
+        font-size: 50px;
+    }
+
+    .frontend p {
+        font-size: 18px;
+    }
+
+    .backend {
+        text-align: left;
+    }
+
+    .backend h3 {
+        font-size: 50px;
+    }
+
+    .backend p {
+        font-size: 18px;
+    }
+
+    .alasan h3 {
+        font-size: 50px;
+    }
+
+    .alasan p {
+        font-size: 18px;
+    }
+
+    .quote {
+        font-size: 28px;
+    }
+}
