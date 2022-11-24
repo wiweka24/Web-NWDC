@@ -37,5 +37,5 @@ Coccotrus_id/
 └── img/
 ```
 
-[oprec-page]: https://wiweka24.github.io/Oprec-NWDC/
+[oprec-page]: https://wiweka24.github.io/oprec-nwdc/
 [oprec-gif]: https://
