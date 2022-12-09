@@ -31,7 +31,7 @@ make using pure html css
 ## Output Structure
 
 ```shell
-Coccotrus_id/
+mwdc-oprec/
 ├── index.html
 ├── style.css
 └── img/
