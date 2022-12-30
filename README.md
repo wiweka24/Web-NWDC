@@ -14,6 +14,9 @@
 website to register for nwdc nightlogin<br/>
 make using pure html css
 
+![HTML](https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white)
+
 [Preview](#preview) •
 [Github Page](#github-page) •
 [Output Structure](#output-structure) 
@@ -22,7 +25,7 @@ make using pure html css
 
 ## Preview
 
-[Oprec NWDC Preview][oprec-gif]
+![Oprec NWDC Preview][oprec-img]
 
 ## Github Page
 
@@ -38,4 +41,4 @@ mwdc-oprec/
 ```
 
 [oprec-page]: https://wiweka24.github.io/oprec-nwdc/
-[oprec-gif]: https://
+[oprec-img]: https://user-images.githubusercontent.com/70740913/210063366-9cd8e5e5-01db-4008-8c1e-a037a6caffc1.png
